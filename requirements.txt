@@ -1,0 +1,44 @@
+# === Agent + LLM Tools ===
+openai
+anthropic
+mistralai
+vertexai
+aisuite==0.1.11
+#aisuite
+docstring-parser
+markdown
+textstat
+qrcode
+tavily-python>=0.7.12
+
+# === Web Framework + API ===
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+pydantic
+pydantic[email]
+requests
+python-dotenv
+
+# === Notebook Experience ===
+notebook
+jupyter_server
+nbclassic
+ipywidgets
+
+# === Data Analysis / Display (Optional Enhancements)
+pandas
+matplotlib
+seaborn
+tabulate
+
+# === Machine Learning / NLP (Optional Enhancements)
+scikit-learn
+
+tavily-python
+wikipedia
+jinja2
+psycopg2-binary
+
+duckdb
