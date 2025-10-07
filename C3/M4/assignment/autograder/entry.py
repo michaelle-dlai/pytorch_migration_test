@@ -47,6 +47,13 @@ def main() -> None:
             err=True,
         )
 
+    solution_nb = read_notebook(c.solution_file_path)
+
+    for t in transformations:
+        solution_nb = t(solution_nb)
+
+    solution_mod = compile_partial_module(solution_nb, "solution_mod", verbose=False)
+
     g_func = handle_part_id(c.part_id)(learner_mod)
 
     try:

@@ -2,7 +2,8 @@
 
 include .conf
 
-PARTIDS = "1"
+PARTIDS = "cWYCt FsE1X rIbzJ OTxiN"
+
 OS := $(shell uname)
 
 sync:
@@ -18,9 +19,6 @@ build:
 
 debug:
 	docker run -it --rm --mount type=bind,source=$(PWD)/mount,target=/shared/submission --mount type=bind,source=$(PWD),target=/grader/ --entrypoint ash $(IMAGE_NAME):$(TAG_ID)
-
-debug-clean:
-	docker run -it --rm --mount type=bind,source=$(PWD)/mount,target=/shared/submission --entrypoint ash $(IMAGE_NAME):$(TAG_ID)
 
 submit-solution:
 	cp solution/solution.ipynb mount/submission.ipynb
@@ -59,3 +57,4 @@ clean:
 
 upload:
 	coursera_autograder --timeout 1800 upload --grader-memory-limit $(MEMORY_LIMIT) --grading-timeout 1800 $(IMAGE_NAME)$(TAG_ID).zip $(COURSE_ID) $(ITEM_ID) $(PART_ID)
+

@@ -1,6 +1,0 @@
-dlai-grader
-aisuite
-python-dotenv
-pydantic
-docstring_parser
-openai
