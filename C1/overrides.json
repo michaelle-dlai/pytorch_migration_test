@@ -1,0 +1,32 @@
+{
+    "@jupyterlab/apputils-extension:themes": {
+        "theme": "JupyterLab Dark"
+    },
+    "@jupyterlab/apputils-extension:notification": {
+        "checkForUpdates": false,
+        "fetchNews": "false"
+    },
+    "@jupyterlab/notebook-extension:tracker": {
+        "codeCellConfig": {
+            "autoClosingBrackets": true
+        },
+        "markdownCellConfig": {
+            "autoClosingBrackets": true
+        },
+        "rawCellConfig": {
+            "autoClosingBrackets": true
+        }
+    },
+    "@jupyterlab/fileeditor-extension:plugin": {
+        "editorConfig": {
+            "lineNumbers": true,
+            "autoClosingBrackets": true
+        }
+    },
+    "@jupyterlab/docmanager-extension:plugin": {
+        "autosaveInterval": 120
+    },
+    "@jupyterlab/completer-extension:manager": {
+        "autoCompletion": false
+    }
+}
