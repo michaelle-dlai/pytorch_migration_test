@@ -10,13 +10,3 @@ torchmetrics
 torchinfo
 tqdm
 transformers
-diffusers
-huggingface_hub
-sentencepiece
-accelerate
-protobuf
-scikit-image
-opencv-python
-imageio[ffmpeg]
-onnx
-onnxruntime
