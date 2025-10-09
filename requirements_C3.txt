@@ -1,1 +1,10 @@
 torch
+torchvision
+numpy
+matplotlib
+dlai-grader
+scikit-learn
+jupyter
+ipywidgets==8.0.2
+torchmetrics
+torchinfo
