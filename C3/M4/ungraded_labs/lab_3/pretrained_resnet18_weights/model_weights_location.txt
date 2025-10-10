@@ -1,0 +1,3 @@
+The model weights used here for Resnet18 can be found at:
+
+C2 --> M4 --> ungraded_labs --> lab_2 --> pretrained_resnet18_weights --> resnet18-f37072fd.pth
